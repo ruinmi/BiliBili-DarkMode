@@ -1,0 +1,558 @@
+/* ==UserStyle==
+@name         自用：配合bilibili-palette使用，补充无深色模式的部分页面
+@version      20221016.15.13
+@namespace    userstyles.world/user/arden
+@description  补充一下页面深色模式
+
+1)热门： https://www.bilibili.com/v/popular/all 
+2)用户空间：https://space.bilibili.com/
+@author       arden
+@license      No License
+==/UserStyle== */
+
+@-moz-document domain("bilibili.com") {
+/* 热门 https://www.bilibili.com/v/popular/all */
+/* 顶部导航栏 */
+/* #nav_searchform > div
+{
+    background: none;
+} */
+
+.fixed-header .bili-header__bar,
+.header-v3 #app{
+     background: #25272a 
+}
+
+
+#page-fav .fav-main .favList-info,
+.nav-tabs{
+    border-bottom: 1px solid #383838;
+}
+/* 分区导航栏 */
+.rank-tab-wrap{
+    background: #25272a;
+}
+.rank-tab-wrap .rank-tab li:not(:last-child){
+    color: white
+}
+/* 热门、每周必看、入站必刷、排行榜 */
+#app > div > div.nav-tabs > div > div > span{
+    color: white
+}
+
+/* 视频标题 */
+#page-fav .fav-main .filter-item,
+/* .rank-list .rank-item .content .info .title */
+#app > div > div.rank-container > div.rank-list-wrap > ul > li > div > div.info > a,
+#app > div > div.popular-video-container.history-list > div > ul > div > div > div.video-card__info > p,
+#app > div > div.popular-video-container.weekly-list > div > div > div> div.video-card__info > p,
+#app > div > div.popular-video-container.popular-list > div > ul > div > div.video-card__info > p
+{
+    color: white ;
+}
+#app > div > div.popular-video-container.weekly-list > div > div > div > div.video-card__info > div > span.weekly-hint,
+.video-card .weekly-hint{
+    background: #0000004a;
+}
+.video-card .history-hint{
+    background: #0000004a !important;
+}
+
+/* 全站音乐榜 */
+.pcPopular ._card_1kuml_6{
+    background: #25272a;
+}
+
+#app > div.rank > div._pcRankList_fd4k4_5 > div > a > div.info > div.title,
+._card_1kuml_6 .musicInfo .info .top .titleNoComment{
+    color: #f5f5f5;
+}
+#app > div.rank > div._pcRankList_fd4k4_5 > div > a > div.info > div.title:hover{
+    color: #00aeec;
+}
+
+
+
+
+
+}
+
+@-moz-document url-prefix("https://space.bilibili.com/") {
+/* 用户空间 https://space.bilibili.com/ */
+
+/* ======通用部分 begin，以后就在这里改吧 2022/4/19 */
+.n .n-data .n-data-v,
+.user-info .user-info-title .info-title[data-v-6ac4a2bc],
+.bili-dyn-title__text,
+#page-dynamic > div.col-1 > div > div.bili-dyn-list__items > div > div > div > div.bili-dyn-item__body > div > div > div.bili-dyn-content__orig__desc > div > div,
+.sub-tabs a,
+#page-setting .setting-index-module,
+#page-setting .setting-privacy-item .setting-privacy-name
+{
+    color: #bbbbbb;
+}
+
+.mini-item,
+#nav_searchform > input,
+.sub-tabs span,
+.section-title,
+.suggest-wrap .trending-item .rank.search-rank-top[data-v-87de088c], 
+#internationalHeader > div > div > div.nav-link > ul > li  a
+{
+    color: white;    
+}
+#page-fav .fav-main .small-item{
+    border: none;
+}
+#page-fav .fav-sidenav .nav-container
+{
+    border-bottom: 1px solid #383838;
+}
+
+/* ======通用部分 end */
+
+
+
+.bili-dyn-content__orig.reference,
+#page-index #i-ann-content textarea,
+#internationalHeader > div > div,
+#page-dynamic > div.col-1 > div > div > div > div
+{
+  background: #25272a;  
+}
+
+/* 左侧导航 */
+#fav-createdList-container > div.nav-title.nav-add > span.text,
+#page-fav .fav-sidenav .text
+{
+    color: white;
+}
+#page-fav .fav-sidenav .text:hover{
+    color: #00a1d6;
+
+}
+
+/* 右侧导航 */
+.mini-type .nav-user-center .user-con .item .name{
+    color: white;
+}
+/* 主页、动态、投稿、合集和列表... */
+.n .n-inner{
+    background: #25272a;
+    box-shadow: 0 0 0 1px #484747;
+}
+.n .n-num, .n .n-text{
+    color: white;
+    box-shadow: none;
+}
+.section,
+.section-title .play-all-channel,
+.section .more
+{
+    border-bottom: 1px solid #484747;    
+}
+/* TA的视频 */
+.section-title .t,
+.be-tab-item span
+{
+    color: white;
+}
+#page-index .col-1{
+    background: #25272a;
+    border: none;
+}
+.section-title .play-all-channel,
+.section .more{
+    border: 1px solid #484747
+}
+/* 视频标题 */
+.small-item .title{
+    color: white;
+}
+.large-item .desc,
+.large-item .title,
+#page-index > div.col-2 > div.section.user-info > p > span,
+#page-index > div.col-2 > div > h3{
+    color: white;
+}
+.wrapper{
+    background: #25272a;
+}
+
+#page-index .col-2 .section{
+    background: #25272a;
+    border: 1px solid #484747 !important
+}
+#page-index .col-2 .section-title,
+.user-info .user-info-title[data-v-51751e2c]
+{
+    border-bottom: 1px solid #484747;
+}
+.i-live .i-live-fo span,
+.i-m-r2,
+.user-info .user-info-title .change-info-btn[data-v-51751e2c]
+{
+    border: 1px solid #484747;
+}
+#page-index > div.col-2 > div.section.i-live > h3{
+    color: #cfcfcf
+}
+/* 收藏夹 */
+#page-index .fav-covers{
+    border: none;
+}
+/* .card, */
+.card-content .repost[data-v-3086e751], .card-content .not-support[data-v-3086e751], .card-content .deleted[data-v-3086e751],
+#page-dynamic .col-2 .section
+{
+    background: #25272a !important;
+}
+
+
+/* --------------------------------------- */
+
+#page-dynamic > div.col-1 > div > div > div > div,
+#page-dynamic .col-2 .section,
+.g-search input,
+.contribution-sidenav,
+#submit-video-list > ul.be-pager>li
+{
+    border: 1px solid #484747 !important;
+}
+
+html,
+.contribution-sidenav~.main-content,
+.col-full,
+.contribution-sidenav .contribution-item:hover,
+#page-video #submit-video-type-filter,
+.g-search input,
+#submit-video-list > ul.be-pager>li,
+.space_input,
+.suggest-wrap[data-v-87de088c],
+.international-header .mini-type .nav-search #nav_searchform, .van-popover .mini-type .nav-search #nav_searchform
+{
+    background: #25272a;
+    
+}
+.contribution-sidenav .contribution-item,
+#page-dynamic > div.col-1 > div > div > div:nth-child(1) > div,
+#page-dynamic .col-2 .section,
+.g-search input,
+.contribution-sidenav~.main-content,
+#submit-video-list > ul.be-pager>li a,
+.space_input,
+.suggest-wrap[data-v-87de088c],
+.card .main-content .user-name a[data-v-2dbadba2],
+#page-series-index > div > div > div.breadcrumb > p,
+#page-video > div > div.main-content > div.row.page-head.clearfix > div.page-head__left > p,
+#page-index > div.col-1 > div.section.i-pin-v > h3,
+#page-index > div.col-1 > div.section.channel.series.guest > div > div > div.channel-title > div.channel-name,
+#page-index > div.col-2 > div:nth-child(2) > div > div.row.user-auth > span
+{
+    color:white;
+}
+
+.col-full{
+    box-shadow: 0 0 0 1px #484747;
+}
+
+.contribution-sidenav~.main-content{
+    border-left: 1px solid #484747;
+}
+
+
+/* 搜索框内的样式 */
+.suggest-wrap .histories .history-item[data-v-87de088c],
+.suggest-wrap .trending-item[data-v-87de088c]:hover,
+.bili-header-m .nav-search .nav-search-btn, .international-header .nav-search .nav-search-btn
+{
+    background: #333639e3;
+}
+.suggest-wrap[data-v-87de088c],
+.international-header .mini-type .nav-search #nav_searchform, .van-popover .mini-type .nav-search #nav_searchform
+{
+     border: 1px solid #484747;
+}
+
+/* 我的关注 */
+#page-index .fav-item .name,
+#page-follows > div > div.follow-main > div.follow-header.follow-header-info > div > p,
+#page-follows > div > div.follow-main > div.follow-header.follow-header-info > div > div > label > div > input,
+#page-follows .follow-tabs span,
+#page-follows .follow-sidenav .text,
+#page-follows .list-item .title{
+    color: white;
+}
+
+
+#page-follows > div > div.follow-main > div.follow-header.follow-header-info > div > div > label > div > input,
+#page-follows .follow-sidenav .follow-list-container .follow-item:hover,
+#page-follows > div > div.follow-sidenav > div.nav-container.follow-container > div.be-scrollbar.follow-list-container.ps > ul > li.follow-item:hover{
+    background: #333639e3;
+}
+#app.visitor,
+#app.owner{
+    background:#25272a;
+}
+
+.fans-action-follow{
+    background: #000000;
+}
+#page-follows .follow-sidenav,
+#page-follows .follow-sidenav .nav-container.follow-container,
+.list-item,
+#page-follows .follow-main .follow-header.follow-header-info{
+        border-bottom: 1px solid #484747;
+}
+#page-follows .follow-main{
+    border-left: 1px solid #484747;
+}
+.follow-dialog-wrap .follow-dialog-window .content .group-list li{
+    color: #f7f7f7;
+}
+}
+
+@-moz-document url-prefix("https://t.bilibili.com") {
+/* 动态 https://t.bilibili.com */
+
+/* 动态 */
+.bili-dyn-banner,
+.bili-dyn-content__orig.reference,
+.bili-dyn-item, .bili-dyn-item .bili-dyn-card-video__badge,
+.bili-dyn-list-tabs__list,
+.bili-dyn-up-list,
+.bili-rich-textarea__inner,
+.topic-panel,
+.bili-dyn-publishing,
+.bili-dyn-my-info__content,
+.bili-dyn-live-users,
+.bb-comment, .comment-bilibili-fold
+{
+    background: #25272a   
+}
+.bili-dyn-card-video__cover .bili-dyn-card-video__cover-shadow {
+    background: none;   
+}
+
+.bili-dyn-card-live__title,
+.bili-dyn-banner__title,
+.bb-comment .comment-list .list-item .text, .comment-bilibili-fold .comment-list .list-item .text,
+.bb-comment .comment-list .list-item .reply-box .reply-item, .comment-bilibili-fold .comment-list .list-item .reply-box .reply-item,
+.bili-rich-text__content,
+.bili-dyn-title__text,
+.bili-dyn-card-video .bili-dyn-card-video__title,
+.bili-rich-textarea__inner,
+.bili-dyn-my-info__name,
+.bili-dyn-my-info__stat__item, .bili-dyn-my-info__stats > a > div,
+.bili-dyn-live-users__item__uname,
+.bili-dyn-live-users__title,
+.topic-panel__nav-title,
+.relevant-topic__title,
+#app > div > div.home-page.f-clear > div.home-container > div > div.left-panel > div.adaptive-scroll.set-index > div.scroll-content > div > div.more-button.c-pointer > a
+{
+    color: #c9ccd0;
+}
+.bili-dyn-up-list__item__name{
+    color: #bdc1c6;
+}
+
+}
+
+@-moz-document url-prefix("https://www.bilibili.com/account/history") {
+/* 历史记录 https://www.bilibili.com/account/history*/
+#app{
+    background: #25272a;
+}
+
+.history-list .r-info{
+    background: none;
+}
+
+.history-list .r-info .r-txt a,
+.history-wrap .b-head .b-head-t
+{
+    color: #f1f1f1;
+}
+
+
+.b-head-search .b-head-search_input
+{
+    background: #25272a;
+}
+
+.b-head-search .b-head-search_input
+{
+    color: white;
+}
+
+/* 小的描述字体 */
+.history-list .r-info .w-info .name,
+.history-list .r-info .w-info .username
+{
+    color: #99a2aa;
+}
+
+/* 边框线 */
+.history-list .r-info .r-txt
+{
+    border-bottom: 1px solid #3f3f3f;
+}
+
+}
+
+@-moz-document url-prefix("https://message.bilibili.com") {
+/* 消息中心 https://message.bilibili.com */
+#internationalHeader > div > div {
+    background: #25272a;
+}
+
+.mini-type .nav-user-center .user-con .item .name,
+.international-header .mini-type .nav-link .nav-link-ul .nav-link-item .link, .van-popover .mini-type .nav-link .nav-link-ul .nav-link-item .link{
+    color: #e2e2e2;
+}
+
+.mini-type .nav-user-center .user-con .item .name:hover,
+.international-header .mini-type .nav-link .nav-link-ul .nav-link-item .link:hover, .van-popover .mini-type .nav-link .nav-link-ul .nav-link-item .link:hover{
+    color: #00a1d6;
+}
+}
+
+@-moz-document url-prefix("https://www.bilibili.com/") {
+/* 首页  */
+.bili-feed4 .bili-header .slide-down{
+    box-shadow: inset 0 -1px #484848!important;
+}
+}
+
+@-moz-document url-prefix("https://www.bilibili.com/video/") {
+/* 播放页 https://www.bilibili.com/video/ */
+
+div.sub-reply-item > span,
+.reply-item .content-warp .root-reply .reply-content{
+    color: #f4f4f4;
+}
+
+}
+
+@-moz-document url-prefix("https://search.bilibili.com/all") {
+/* 搜索页 search.bilibili.com/all*/
+.text_ellipsis{
+    color: whitesmoke;
+}
+.text_ellipsis:hover{
+    color: #00aeec;
+}
+.suggest-item{
+    color: ghostwhite;
+}
+
+}
+.bili-dyn-topic__card:hover {
+    background-color: #043646;
+}
+.bb-comment .comment-header, .comment-bilibili-fold .comment-header {
+    border-bottom: 1px solid #4d4d4d;
+}
+.mediainfo_media_desc__F5lLq {
+    pointer-events: none;
+}
+.bb-comment .bottom-page.center,
+.bb-comment .comment-list .list-item .con, .comment-bilibili-fold .comment-list .list-item .con,
+.mediainfo_mediaInfo__Cpow4,.recommend_wrap__pgu8c {
+    border-top: 1px solid #585858;
+}
+.mediainfo_mediaRight__jv5hq .mediainfo_media_desc__F5lLq i {
+    pointer-events: all;
+    background-color: #1a1c20;
+}
+.mediainfo_mediaRight__jv5hq .mediainfo_media_desc_section__bOFBw .mediainfo_display_area__CEKfP .mediainfo_ellipsis__xCKNd {
+    background: linear-gradient(90deg,hsla(0,0%,100%,0),#1a1c20 20%,#1a1c20);
+}
+.SectionSelector_SectionSelector__WS4H3 .SectionSelector_expand__Oh9Lt { 
+background: linear-gradient(270deg,#393939 46.21%,hsla(210,8%,95%,0));
+}
+.main-container,.bili-comment.browser-pc {
+    background-color: #1a1c20;
+}
+.eplist_ep_list_wrapper__PzLHa {
+background-color: #393939;
+}
+
+.bb-comment .comment-header .tabs-order li, .comment-bilibili-fold .comment-header .tabs-order li,
+.imageListItem_wrap__HceXs .imageListItem_title__07Hgj,
+.RecommendItem_wrap__pJmXL .RecommendItem_right_wrap__rgzw_ .RecommendItem_title__zyQj0,
+.recommend_wrap__pgu8c .recommend_title__miCR4,
+.numberListItem_title__ukPv0 {
+    color: #e5e5e5;
+}
+#bilibili-player,
+.bpx-player-container {
+    box-shadow: 0px 0px 8px #000000a6 !important
+}
+a.bili-dyn-card-live {
+    border: none;
+}
+.bili-dyn-up-list__shadow-right,
+.bili-dyn-up-list__shadow-left,
+.bili-dyn-up-list__shadow-right .shadow, 
+.bili-dyn-up-list__shadow-left .shadow
+{
+    background: none !important;
+}
+.bili-dyn-card-live__body,
+.bili-dyn-card-video__body {
+    background-color: #1a1c20;
+}
+.bili-dyn-item div {
+    color: #f3f3f3;
+}
+div.root-reply-container div.content-warp div.root-reply div.reply-tag-list div.reply-tag-item {
+    background-color: rgb(45, 47, 51) !important;
+    color: rgb(191, 191, 191) !important;
+}
+body {
+    background-color: #1a1c20;
+}
+
+body #app .bg {
+    background-image: none;
+}
+.bili-dyn-card-video {
+    border: 1px solid #393939;
+}
+.sailing,
+.user-info-title,
+.bili-dyn-item__more,
+.bili-dyn-home--member .right,
+.bili-dyn-home--member .left,
+#activity_vote,
+.right-entry > li:nth-child(2),
+li.v-popover-wrap:nth-child(9),
+li.v-popover-wrap:nth-child(8),
+li.v-popover-wrap:nth-child(7),
+li.v-popover-wrap:nth-child(5),
+li.v-popover-wrap:nth-child(4),
+li.v-popover-wrap:nth-child(2),
+.left-entry > li:nth-child(3),
+.left-entry > li:nth-child(6),
+.left-entry > li:nth-child(10),
+.video-page-special-card-small,
+#head-info-vm > div > div > div.lower-row > div.left-ctnr > div.gift-planet-entry,
+#head-info-vm > div > div > div.lower-row > div.left-ctnr > div.activity-gather-entry.activity-entry.s-activity-entry,
+#my-dear-haruna-vm,
+#link-footer-vm,
+#gift-control-vm > div > div.vertical-middle.dp-table.section.right-part.p-relative > div > div.m-guard-ent.gift-section.guard-ent,
+#sections-vm > div.section-block.f-clear.z-section-blocks > div.left-container > div.flip-view.p-relative.over-hidden.w-100,
+.bili-dyn-home--member > main:nth-child(2) > section:nth-child(1) {
+    display: none !important;
+}
+
+body #app .bili-dyn-home--member {
+    justify-content: start;
+}
+body #app .bili-dyn-home--member main {
+    margin: 0 400px;
+}
+.bili-dyn-more__menu {
+    color: #dbdbdb !important;
+}
