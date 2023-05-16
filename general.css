@@ -1,0 +1,78 @@
+@-moz-document domain("bilibili.com") {
+  /* general */
+  :root {
+    --primary-black: #0f0f0f;
+    --additive-background: rgba(255, 255, 255, 0.1);
+    --idle-title: #aaa;
+    --active-title: #f1f1f1;
+    --outline: rgba(255, 255, 255, 0.2);
+    --btn-blue: #3ea6ff;
+    --btn-blue-hover: #65b8ff;
+    --menu-background: #282828;
+    --add-btn-hover: rgba(255, 255, 255, 0.2);
+    --add-btn-click: rgba(255, 255, 255, 0.3);
+    --filled-hover: #d9d9d9;
+    --multi-card-background: #212121;
+    --yt-lightsource-section2-color: rgba(40, 37, 28, 0.949);
+    --dark-text: #000;
+  }
+  body {
+    background-color: var(--primary-black);
+  }
+  /* 设置滚动条的样式 */
+  ::-webkit-scrollbar {
+    background: var(--primary-black);
+    width: 8px;
+    height: 8px;
+  }
+  /* 滚动槽 */
+  ::-webkit-scrollbar-track {
+    /*     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); */
+    background: var(--primary-black);
+    border-radius: 8px;
+  }
+  /* 滚动条滑块 */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #bfbfbf;
+    /*     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.25); */
+  }
+  .bili-dyn-list-loading {
+    background-color: var(--primary-black) !important;
+  }
+  .fixed-sidenav-storage .fixed-sidenav-storage-item,
+  .bili-dyn-sidebar__btn {
+    background: var(--additive-background) !important;
+    color: #b9b9b9 !important;
+    border: none !important;
+  }
+  .bili-dyn-sidebar__btn:hover {
+    background: #3e4146;
+  }
+  #bili-header-container > div > div > ul.left-entry > li:nth-child(1) > div,
+  .search-panel div.trending,
+  .bb-comment .comment-send-lite.comment-send-lite,
+  .b-avatar__canvas > div:nth-child(2),
+  .b-avatar__canvas > div:nth-child(3),
+  div.b-avatar__layers > div:nth-child(3),
+  div.b-avatar__layers > div:nth-child(2) {
+    display: none !important;
+  }
+  .bili-popover, .bili-popover__arrow {
+    background: var(--menu-background);
+    border: none;
+  }
+  .bili-dyn-more__menu {
+    padding: 6px 0 6px 0 !important;
+  }
+  .bili-dyn-more__menu__item,
+  .bili-dyn-more__menu__item:hover {
+    color: var(--active-title);
+  }
+  .bili-dyn-more__menu__item:hover {
+    background: var(--outline);
+  }
+  .v-img {
+    background-color: transparent;
+  }
+}
