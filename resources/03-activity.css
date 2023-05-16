@@ -1,0 +1,235 @@
+@-moz-document url-prefix("https://t.bilibili.com") {
+    /* activity */
+    .right,
+    #app > div.bili-dyn-home--member > main > section:nth-child(2),
+    .bili-avatar-pendent-dom,
+    .bili-avatar .bili-avatar-size-nft-48, .bili-avatar .bili-avatar-size-nft-50, .bili-avatar .bili-avatar-size-nft-60,
+    .sailing,
+    .bili-dyn-list-tabs__highlight,
+    .bili-dyn-card-video__badge,
+    .bili-dyn-card-video__mark,
+    .dyn-orig-author__right,
+    .bili-dyn-list-tabs,
+    .nameplate,
+    .bili-dyn-item__ornament,
+    .list-item.reply-wrap .spot,
+    .bili-dyn-list__item .bili-dyn-more__btn,
+    .bili-dyn-my-info,
+    .bb-comment .comment-send .comment-emoji .text,
+    .bili-dyn-publishing {
+        display: none !important;
+    }
+    .list-item.reply-wrap:hover .spot,
+    .bili-dyn-list__item:hover .bili-dyn-more__btn {
+        display: block;
+    }
+
+
+    /* background */
+    .bili-dyn-content__orig.reference,
+    .bili-dyn-card-pgc__body,
+    .bili-dyn-card-video__body,
+    .bili-dyn-item,
+    .bili-dyn-list-tabs,
+    .bili-dyn-live-users,
+    .bili-dyn-card-live__body,
+    .bili-dyn-up-list,
+    .bb-comment,
+    .bb-comment .comment-send .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send .textarea-container .ipt-txt, .bb-comment .comment-send-lite .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send-lite .textarea-container .ipt-txt,
+    .bb-comment .comment-send .textarea-container:hover textarea, .comment-bilibili-fold .comment-send .textarea-container:hover textarea, .bb-comment .comment-send-lite .textarea-container:hover textarea, .comment-bilibili-fold .comment-send-lite .textarea-container:hover textarea, .bb-comment .comment-send .textarea-container.focus textarea, .comment-bilibili-fold .comment-send .textarea-container.focus textarea, .bb-comment .comment-send-lite .textarea-container.focus textarea, .comment-bilibili-fold .comment-send-lite .textarea-container.focus textarea,
+    .dyn-vote__body,
+    .bili-dyn-card-vote,
+    .bili-dyn-card-video__cover .bili-dyn-card-video__cover-shadow,
+    .bili-user-profile-view__info__button.chat,
+    .bili-dyn-topic__card:hover,
+    .bili-rich-text-link:hover, .bili-rich-text-module:hover, .bili-rich-text-topic:hover {
+        background: none;
+    }
+    .bili-dyn-card-ugc .bili-dyn-card-ugc__wrap, .reference .bili-dyn-card-ugc__wrap,
+    .bili-user-profile,
+    .bili-dyn-card-reserve .bili-dyn-card-reserve__card,
+    .reference .bili-dyn-card-reserve__card {
+        background: var(--primary-black);
+    }
+    .bili-dyn-my-info,
+    .bili-dyn-banner,
+    .bili-dyn-item .bili-dyn-card-video__badge,
+    .bili-rich-textarea__inner,
+    .topic-panel,
+    .bili-dyn-publishing,
+    .bili-user-profile-view__info__button.follow.checked,
+    .bili-dyn-card-pgc__body,
+    .bili-user-profile-view__info__button.chat:hover,
+    .comment-bilibili-fold {
+        background: var(--additive-background)
+    }
+    .bili-dyn-list__notification,
+    .bili-user-profile__content,
+    .reply-tags span,
+    .bb-comment .comment-list .list-item .reply-box .view-more .btn-more:hover, .comment-bilibili-fold .comment-list .list-item .reply-box .view-more .btn-more:hover,
+    .bb-comment .comment-list .list-item .info .btn-hover:hover, .comment-bilibili-fold .comment-list .list-item .info .btn-hover:hover {
+        background: var(--additive-background) !important;
+    }
+    .bb-comment .operation .opera-list, .comment-bilibili-fold .operation .opera-list {
+        background: var(--menu-background);
+    }
+    .bb-comment .operation .opera-list li:hover, .comment-bilibili-fold .operation .opera-list li:hover {
+        background: var(--outline);
+    }
+    .bili-user-profile-view__info__button.follow.checked:hover {
+        background: var(--add-btn-hover);
+    }
+    .bb-comment .comment-send .comment-submit, .comment-bilibili-fold .comment-send .comment-submit, .bb-comment .comment-send-lite .comment-submit, .comment-bilibili-fold .comment-send-lite .comment-submit {
+        background: var(--btn-blue);
+    }
+    .bb-comment .comment-send .comment-submit:hover, .comment-bilibili-fold .comment-send .comment-submit:hover, .bb-comment .comment-send-lite .comment-submit:hover, .comment-bilibili-fold .comment-send-lite .comment-submit:hover {
+        background: var(--btn-blue-hover);
+    }
+    .bili-dyn-more__container:hover {
+        background-color: transparent;
+    }
+
+
+    /* border */
+    .bili-dyn-card-video,
+    .dyn-vote,
+    .bili-dyn-card-live,
+    .bili-user-profile-view__info__button.follow.checked,
+    .bb-comment .comment-list .list-item .con, .comment-bilibili-fold .comment-list .list-item .con,
+    .bili-dyn-card-video__body,
+    .bb-comment .bottom-page.center,
+    .bb-comment .comment-header, .comment-bilibili-fold .comment-header,
+    .bb-comment .comment-send .comment-emoji, .comment-bilibili-fold .comment-send .comment-emoji, .bb-comment .comment-send-lite .comment-emoji, .comment-bilibili-fold .comment-send-lite .comment-emoji {
+        border: none;
+    }
+    .bili-dyn-list-tabs {
+        border-bottom: 1px solid var(--outline);
+    }
+    .bb-comment .comment-send .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send .textarea-container .ipt-txt, .bb-comment .comment-send-lite .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send-lite .textarea-container .ipt-txt,
+    .bili-user-profile-view__info__button.chat,
+    .bili-dyn-item {
+        border: 1px solid var(--outline) !important;
+    }
+    .bb-comment .comment-send .textarea-container:hover textarea, .comment-bilibili-fold .comment-send .textarea-container:hover textarea, .bb-comment .comment-send-lite .textarea-container:hover textarea, .comment-bilibili-fold .comment-send-lite .textarea-container:hover textarea, .bb-comment .comment-send .textarea-container.focus textarea, .comment-bilibili-fold .comment-send .textarea-container.focus textarea, .bb-comment .comment-send-lite .textarea-container.focus textarea, .comment-bilibili-fold .comment-send-lite .textarea-container.focus textarea {
+        border: 1px solid var(--active-title) !important;
+    }
+    .bili-dyn-live-users__more:hover:after {
+        border-color: var(--active-title);
+    }
+    .bb-comment .comment-send .comment-submit:hover, .comment-bilibili-fold .comment-send .comment-submit:hover, .bb-comment .comment-send-lite .comment-submit:hover, .comment-bilibili-fold .comment-send-lite .comment-submit:hover {
+        border-color: var(--btn-blue-hover);
+    }
+
+
+    /* color */
+    .bili-dyn-card-video__desc,
+    .bb-comment .comment-header .tabs-order li, .comment-bilibili-fold .comment-header .tabs-order li,
+    .bili-dyn-time,
+    .dyn-orig-author__action,
+    .bili-dyn-card-video__stat,
+    .bili-dyn-time:hover,
+    .bili-dyn-list-tabs__item,
+    .bili-dyn-card-vote__detail__desc,
+    .bili-dyn-live-users__item__title {
+        color: var(--idle-title);
+    }
+    .bili-dyn-card-pgc__title,
+    .bili-dyn-card-ugc__detail__title:hover,
+    .bili-dyn-card-ugc__detail__title,
+    .bili-dyn-card-reserve__title,
+    .bili-dyn-my-info__stat__item .item-num,
+    .bili-dyn-my-info,
+    .bili-dyn-banner__title,
+    .comment-bilibili-fold .comment-list .list-item .text,
+    .comment-bilibili-fold .comment-list .list-item .reply-box .reply-item,
+    .bili-rich-textarea__inner,
+    .bili-dyn-my-info__stat__item,
+    .bili-dyn-my-info__stats > a > div,
+    .topic-panel__nav-title,
+    .relevant-topic__title,
+    #app > div > div.home-page.f-clear > div.home-container > div > div.left-panel > div.adaptive-scroll.set-index > div.scroll-content > div > div.more-button.c-pointer > a {
+        color: var(--idle-title) !important;
+    }
+    .bili-dyn-live-users__more:hover,
+    .bili-dyn-card-live__title,
+    .bili-dyn-live-users__title,
+    .bili-dyn-my-info__stat__item:hover > div:first-child,
+    .bb-comment .comment-list .list-item .reply-box .reply-item,
+    .bili-dyn-list-tabs__item.active, .bili-dyn-list-tabs__item:hover {
+        color: var(--active-title);
+    }
+    .bb-comment .comment-header .tabs-order li.on, .comment-bilibili-fold .comment-header .tabs-order li.on,
+    .bili-dyn-card-video .bili-dyn-card-video__title,
+    .bili-dyn-title__text,
+    .dyn-orig-author__name,
+    .bili-rich-text__content,
+    .bili-dyn-interaction__item__desc .bili-rich-text-module,
+    .bili-dyn-live-users__item__uname,
+    .bb-comment .comment-header .tabs-order li:hover, .comment-bilibili-fold .comment-header .tabs-order li:hover,
+    .user a,
+    .bb-comment .comment-list .list-item .info .btn-hover, .comment-bilibili-fold .comment-list .list-item .info .btn-hover,
+    .reply-tags span,
+    .bili-dyn-list__notification,
+    .bb-comment .comment-send .comment-emoji:hover, .comment-bilibili-fold .comment-send .comment-emoji:hover, .bb-comment .comment-send-lite .comment-emoji:hover, .comment-bilibili-fold .comment-send-lite .comment-emoji:hover, .bb-comment .comment-send .comment-emoji.open, .comment-bilibili-fold .comment-send .comment-emoji.open, .bb-comment .comment-send-lite .comment-emoji.open, .comment-bilibili-fold .comment-send-lite .comment-emoji.open,
+    .bb-comment .comment-list .list-item .text,
+    .dyn-vote__detail__title,
+    .bb-comment .comment-list .list-item .reply-box .view-more .btn-more, .comment-bilibili-fold .comment-list .list-item .reply-box .view-more .btn-more,
+    .bili-user-profile-view__info__uname,
+    .bili-user-profile-view__info__stat,
+    .bili-user-profile-view__info__button.follow.checked,
+    .bili-user-profile-view__info__stat span,
+    .bb-comment .operation .opera-list, .comment-bilibili-fold .operation .opera-list,
+    .bb-comment .operation .opera-list li, .comment-bilibili-fold .operation .opera-list li,
+    .bb-comment .comment-send .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send .textarea-container .ipt-txt, .bb-comment .comment-send-lite .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send-lite .textarea-container .ipt-txt,
+    .bili-dyn-card-vote__detail__title,
+    .bili-user-profile-view__info__button.chat,
+    .bili-dyn-my-info__content .bili-dyn-my-info__name {
+        color: var(--active-title) !important;
+    }
+    .bb-comment .comment-send .comment-submit, .comment-bilibili-fold .comment-send .comment-submit, .bb-comment .comment-send-lite .comment-submit, .comment-bilibili-fold .comment-send-lite .comment-submit {
+        color: var(--dark-text);
+    }
+
+
+    .bili-dyn-list-tabs,
+    #app > div.bili-dyn-home--member > main {
+        width: 100%;
+    }
+    .bili-dyn-list {
+        width: 632px;
+        margin: auto;
+    }
+    .bili-dyn-live-users__item-container:hover {
+        border-radius: 6px;
+    }
+    .bili-dyn-sidebar__btn span.back-top:before {
+        filter: invert(0.7);
+    }
+    .bili-dyn-list-tabs__item {
+        font-weight: 600;
+    }
+    .bili-dyn-list-tabs {
+        border-radius: 0;
+    }
+    .bb-comment .comment-list .list-item .info .btn-hover, .comment-bilibili-fold .comment-list .list-item .info .btn-hover {
+        width: 28px;
+        text-align: center;
+        height: 27px;
+        line-height: 27px;
+    }
+    .bb-comment .comment-send .comment-emoji, .comment-bilibili-fold .comment-send .comment-emoji, .bb-comment .comment-send-lite .comment-emoji, .comment-bilibili-fold .comment-send-lite .comment-emoji {
+        box-shadow: none;
+    }
+    .bb-comment .comment-send .comment-submit, .comment-bilibili-fold .comment-send .comment-submit, .bb-comment .comment-send-lite .comment-submit, .comment-bilibili-fold .comment-send-lite .comment-submit {
+        font-weight: 500;
+        width: 90px;
+        height: 35px;
+        border-radius: 40px;
+        margin: 72px 80px 0 0;
+    }
+    #app > div.bili-dyn-home--member > aside.left {
+        position: absolute;
+        z-index: 111;
+        right: 120px;
+    }
+}
