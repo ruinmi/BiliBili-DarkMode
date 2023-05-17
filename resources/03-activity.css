@@ -9,19 +9,20 @@
 .bili-dyn-card-video__mark,
 .dyn-orig-author__right,
 .bili-dyn-list-tabs,
+.bgc,
+.bg,
 .nameplate,
 .bili-dyn-item__ornament,
 .list-item.reply-wrap .spot,
 .bili-dyn-list__item .bili-dyn-more__btn,
 .bili-dyn-my-info,
-.bb-comment .comment-send .comment-emoji .text,
 .bili-dyn-publishing {
     display: none !important;
 }
-
+.bili-dyn-list__item .bili-dyn-more__btn:hover,
 .list-item.reply-wrap:hover .spot,
 .bili-dyn-list__item:hover .bili-dyn-more__btn {
-    display: block;
+    display: block !important;
 }
 
 
@@ -41,10 +42,12 @@
 .bili-dyn-card-vote,
 .bili-dyn-card-video__cover .bili-dyn-card-video__cover-shadow,
 .bili-user-profile-view__info__button.chat,
+.bili-rich-textarea__inner,
 .bili-dyn-topic__card:hover,
 .bili-rich-text-link:hover, .bili-rich-text-module:hover, .bili-rich-text-topic:hover {
     background: none;
 }
+
 
 .bili-dyn-card-ugc .bili-dyn-card-ugc__wrap, .reference .bili-dyn-card-ugc__wrap,
 .bili-user-profile,
@@ -56,8 +59,8 @@
 .bili-dyn-my-info,
 .bili-dyn-banner,
 .bili-dyn-item .bili-dyn-card-video__badge,
-.bili-rich-textarea__inner,
 .topic-panel,
+.bili-dyn-live-users__item-container:hover,
 .bili-dyn-publishing,
 .bili-user-profile-view__info__button.follow.checked,
 .bili-dyn-card-pgc__body,
@@ -69,6 +72,7 @@
 .bili-dyn-list__notification,
 .bili-user-profile__content,
 .reply-tags span,
+.bili-topic-item__cloud[data-v-ff31b528]:hover,
 .bb-comment .comment-list .list-item .reply-box .view-more .btn-more:hover, .comment-bilibili-fold .comment-list .list-item .reply-box .view-more .btn-more:hover,
 .bb-comment .comment-list .list-item .info .btn-hover:hover, .comment-bilibili-fold .comment-list .list-item .info .btn-hover:hover {
     background: var(--additive-background) !important;
@@ -82,10 +86,14 @@
     background: var(--outline);
 }
 
+.bili-dyn-live-users__item-container:active,
+.bili-topic-search__popover:hover,
 .bili-user-profile-view__info__button.follow.checked:hover {
     background: var(--add-btn-hover);
 }
-
+.bili-user-profile-view__info__button.follow.checked:active {
+    background: var(--add-btn-click);
+}
 .bb-comment .comment-send .comment-submit, .comment-bilibili-fold .comment-send .comment-submit, .bb-comment .comment-send-lite .comment-submit, .comment-bilibili-fold .comment-send-lite .comment-submit {
     background: var(--btn-blue);
 }
@@ -93,9 +101,16 @@
 .bb-comment .comment-send .comment-submit:hover, .comment-bilibili-fold .comment-send .comment-submit:hover, .bb-comment .comment-send-lite .comment-submit:hover, .comment-bilibili-fold .comment-send-lite .comment-submit:hover {
     background: var(--btn-blue-hover);
 }
-
+.bili-topic-new__custom {
+    background-color: var(--additive-background);
+}
 .bili-dyn-more__container:hover {
     background-color: transparent;
+}
+.bili-topic-search__popover.active,
+.bili-topic-search__popover,
+.bili-topic-selector__bulletin {
+    background-color: var(--menu-background);
 }
 
 
@@ -106,12 +121,14 @@
 .bili-user-profile-view__info__button.follow.checked,
 .bb-comment .comment-list .list-item .con, .comment-bilibili-fold .comment-list .list-item .con,
 .bili-dyn-card-video__body,
+.bili-dyn-card-live__body,
 .bb-comment .bottom-page.center,
-.bb-comment .comment-header, .comment-bilibili-fold .comment-header,
-.bb-comment .comment-send .comment-emoji, .comment-bilibili-fold .comment-send .comment-emoji, .bb-comment .comment-send-lite .comment-emoji, .comment-bilibili-fold .comment-send-lite .comment-emoji {
+.bili-topic-search__popover {
     border: none;
 }
-
+.bili-dyn-forward__item, .bili-dyn-forward__more {
+    border-top: 1px solid var(--outline);
+}
 .bili-dyn-list-tabs {
     border-bottom: 1px solid var(--outline);
 }
@@ -144,6 +161,7 @@
 .bili-dyn-time:hover,
 .bili-dyn-list-tabs__item,
 .bili-dyn-card-vote__detail__desc,
+.bili-dyn-card-live__desc,
 .bili-dyn-live-users__item__title {
     color: var(--idle-title);
 }
@@ -155,9 +173,9 @@
 .bili-dyn-my-info__stat__item .item-num,
 .bili-dyn-my-info,
 .bili-dyn-banner__title,
+.bili-topic-item__cloud__desc[data-v-ff31b528],
 .comment-bilibili-fold .comment-list .list-item .text,
 .comment-bilibili-fold .comment-list .list-item .reply-box .reply-item,
-.bili-rich-textarea__inner,
 .bili-dyn-my-info__stat__item,
 .bili-dyn-my-info__stats > a > div,
 .topic-panel__nav-title,
@@ -169,7 +187,9 @@
 .bili-dyn-live-users__more:hover,
 .bili-dyn-card-live__title,
 .bili-dyn-live-users__title,
+.bili-topic-search__popover.active .bili-topic-search__input__inner,
 .bili-dyn-my-info__stat__item:hover > div:first-child,
+.bili-topic-item__cloud__name[data-v-ff31b528],
 .bb-comment .comment-list .list-item .reply-box .reply-item,
 .bili-dyn-list-tabs__item.active, .bili-dyn-list-tabs__item:hover {
     color: var(--active-title);
@@ -186,8 +206,8 @@
 .user a,
 .bb-comment .comment-list .list-item .info .btn-hover, .comment-bilibili-fold .comment-list .list-item .info .btn-hover,
 .reply-tags span,
+.bili-rich-textarea__inner,
 .bili-dyn-list__notification,
-.bb-comment .comment-send .comment-emoji:hover, .comment-bilibili-fold .comment-send .comment-emoji:hover, .bb-comment .comment-send-lite .comment-emoji:hover, .comment-bilibili-fold .comment-send-lite .comment-emoji:hover, .bb-comment .comment-send .comment-emoji.open, .comment-bilibili-fold .comment-send .comment-emoji.open, .bb-comment .comment-send-lite .comment-emoji.open, .comment-bilibili-fold .comment-send-lite .comment-emoji.open,
 .bb-comment .comment-list .list-item .text,
 .dyn-vote__detail__title,
 .bb-comment .comment-list .list-item .reply-box .view-more .btn-more, .comment-bilibili-fold .comment-list .list-item .reply-box .view-more .btn-more,
@@ -241,8 +261,7 @@
     height: 27px;
     line-height: 27px;
 }
-
-.bb-comment .comment-send .comment-emoji, .comment-bilibili-fold .comment-send .comment-emoji, .bb-comment .comment-send-lite .comment-emoji, .comment-bilibili-fold .comment-send-lite .comment-emoji {
+.bili-topic-search__popover.active {
     box-shadow: none;
 }
 
