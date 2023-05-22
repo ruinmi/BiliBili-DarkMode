@@ -33,10 +33,13 @@ div.toolbar > span:nth-child(5),
 .note-list .note-card-container .note-card[data-v-13587840],
 .numberListItem_number_list_item__wszA4:hover,
 .bpx-player-block-list-line,
+.resizable-component .editor-innter,
 .numberListItem_number_list_item__wszA4.numberListItem_select__ar1X5,
 .multi-page-v1 .cur-list {
     background: none;
 }
+.bpx-player-auxiliary .bpx-player-dm-wrap .bscroll-vertical-scrollbar.mousedown,
+.bpx-player-auxiliary .bpx-player-dm-wrap:hover .bscroll-vertical-scrollbar,
 .bpx-player-auxiliary .bpx-player-bscrollbar .bscroll-vertical-scrollbar.mousedown, .bpx-player-auxiliary .bpx-player-bscrollbar:hover .bscroll-vertical-scrollbar {
     background: none !important;
 }
@@ -87,7 +90,11 @@ div.toolbar > span:nth-child(5),
 .at-panel .at-list-container .at-list-ground .at-user-list .at-user-item[data-v-2f6d5a3d]:hover,
 .upinfo-btn-panel .follow-btn.following[data-v-1e89c9b3],
 .bpx-player-block-list-line:hover,
+.ql-toolbar,
+.note-pc .note-container .note-header .jump-note-package:hover,
 .bpx-player-auxiliary .bpx-player-bscrollbar .bscroll-indicator,
+.bpx-player-auxiliary .bpx-player-dm-wrap .bscroll-indicator,
+.reply-content-container .reply-content .note-prefix,
 .upinfo-btn-panel .follow-btn.following, .video-tool-more-popover, .tag-more, .s_tag-v1 .tag-wrap .tag-area > li .tag-link {
     background: var(--additive-background) !important;
 }
@@ -243,6 +250,8 @@ a,
 .reply-header .reply-navigation .nav-bar .nav-sort .time-sort[data-v-7bb97476]:hover,
 .video-note.video-toolbar-right-item[data-v-f362968c],
 .bpx-player-sending-bar .bpx-player-video-inputbar .bpx-player-dm-input,
+.ql-snow.ql-toolbar button, .ql-snow .ql-toolbar button,
+.reply-content-container .reply-content .note-prefix,
 .multi-page-v1 .cur-list .list-box li .link-content {
     color: var(--active-title);
 }
@@ -271,6 +280,7 @@ div.sub-reply-item > span,
 .bb-comment .comment-send .comment-emoji:hover, .comment-bilibili-fold .comment-send .comment-emoji:hover, .bb-comment .comment-send-lite .comment-emoji:hover, .comment-bilibili-fold .comment-send-lite .comment-emoji:hover, .bb-comment .comment-send .comment-emoji.open, .comment-bilibili-fold .comment-send .comment-emoji.open, .bb-comment .comment-send-lite .comment-emoji.open, .comment-bilibili-fold .comment-send-lite .comment-emoji.open,
 .note-pc .note-container .note-header .note-operation.detail,
 .note-list .note-card-container .note-card .user-info .user-name[data-v-13587840],
+.ql-snow .ql-picker,
 .note-list .note-card-container .note-card .note-content[data-v-13587840],
 .base-video-sections-v1 .video-section-list .video-episode-card__info-title,
 .base-video-sections-v1 .video-sections-head_first-line .first-line-left .first-line-title[data-v-3b780778],
@@ -346,7 +356,7 @@ div.sub-reply-item > span,
 .note-container .attention-btn-container svg path {
     fill: var(--dark-text);
 }
-
+.ql-snow .ql-stroke,
 .SectionSelector_SectionSelector__WS4H3 .SectionSelector_expand__Oh9Lt svg {
     stroke: var(--active-title);
 }
