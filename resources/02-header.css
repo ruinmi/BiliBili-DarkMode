@@ -5,6 +5,7 @@ li.v-popover-wrap:nth-child(7),
 li.v-popover-wrap:nth-child(5),
 li.v-popover-wrap:nth-child(4),
 li.v-popover-wrap:nth-child(2),
+.v-popover.is-bottom-start,
 .vip-entry-containter,
 #bili-header-container > div > div > ul.right-entry > li.v-popover-wrap.header-avatar-wrap > div.v-popover.is-bottom > div > div > div.links-item > div,
 .left-entry .mini-header__title,
@@ -43,6 +44,7 @@ div.link-title > svg > path,
 }
 .bili-header .avatar-panel-popover,
 .mini-header,
+.search-input-container .search-fixed-header[data-v-c9b7d6c2],
 .v-popover-content,
 .bili-header .search-panel,
 .mini-header .center-search-container .center-search__bar #nav-searchform.is-focus {
@@ -137,7 +139,7 @@ div.link-title > svg > path,
     border-right: 1px solid var(--outline) !important;
     border-top: 1px solid var(--outline) !important;
 }
-
+.search-input-container .search-input-wrap .search-panel-popover[data-v-c9b7d6c2],
 .bili-header .search-panel {
     border-left: 1px solid var(--outline);
     border-right: 1px solid var(--outline);

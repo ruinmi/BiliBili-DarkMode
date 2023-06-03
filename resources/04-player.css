@@ -1,13 +1,16 @@
 /* player */
 .pop-live-small-mode,
 #right-bottom-banner,
+#biliMainFooter,
 .mediainfo_mediaToolbar__uEabN .mediainfo_btnHome__ci38K,
 .reply-warp .fixed-reply-box,
 .reply-notice,
 .flip-view,
 .reply-item .bottom-line,
+.vipPaybar_container__GsBut,
 div.root-reply-avatar > div > div > div,
 .reply-decorate,
+.upinfo_upInfoCard__roviy,
 .note-list .part-line[data-v-13587840],
 #arc_toolbar_report > div.video-toolbar-right > div.video-tool-more.video-toolbar-right-item,
 #arc_toolbar_report > div.video-toolbar-right > div.video-complaint.video-toolbar-right-item.toolbar-right-complaint,
@@ -29,6 +32,7 @@ div.toolbar > span:nth-child(5),
 .multi-page-v1,
 .base-video-sections-v1[data-v-3b780778],
 .bscroll-vertical-scrollbar,
+.show-more-text[data-v-7694e020],
 .bpx-player-block-list,
 .note-list .note-card-container .note-card[data-v-13587840],
 .numberListItem_number_list_item__wszA4:hover,
@@ -47,6 +51,8 @@ div.toolbar > span:nth-child(5),
 .bpx-player-auxiliary .bpx-player-dm-wrap,
 .bpx-player-auxiliary .bpx-player-dm,
 .bpx-player-auxiliary .bpx-player-dm-load-status,
+.search-input-wrap .search-panel,
+.bili-video-card__wrap[data-v-62f526a6],
 .bui-collapse .bui-collapse-header,
 #app {
     background: var(--primary-black);
@@ -56,6 +62,7 @@ div.toolbar > span:nth-child(5),
 .bpx-player-auxiliary .bpx-player-dm-btn-history,
 .bpx-docker-minor,
 .user-card[data-v-7b0c6b9a],
+#i_cecream,
 .note-pc .note-container,
 .note-detail,
 .bui-collapse .bui-collapse-header,
@@ -81,6 +88,7 @@ div.toolbar > span:nth-child(5),
 .note-pc .note-container .note-header .close-note:hover,
 .bui-button .bui-area.bui-button-gray, .bui-button .bui-area.bui-button-large, .bui-button .bui-area.bui-button-small,
 .note-pc .note-container .note-header .back-note-list:hover,
+.search-input-wrap .suggest-item.active, .search-input-wrap .suggest-item:hover, .search-input-wrap .suggest-item:focus,
 .van-popover.van-followed .follow_dropdown li:hover,
 .base-video-sections-v1 .video-section-list .video-episode-card__info[data-v-3b780778]:hover,
 .multi-page-v1 .cur-list .list-box li:hover {
@@ -95,11 +103,17 @@ div.toolbar > span:nth-child(5),
 .bpx-player-auxiliary .bpx-player-bscrollbar .bscroll-indicator,
 .bpx-player-auxiliary .bpx-player-dm-wrap .bscroll-indicator,
 .reply-content-container .reply-content .note-prefix,
+.vui_button--link,
+.vui_button,
 .upinfo-btn-panel .follow-btn.following, .video-tool-more-popover, .tag-more, .s_tag-v1 .tag-wrap .tag-area > li .tag-link {
     background: var(--additive-background) !important;
 }
 .note-list .list-note-operation[data-v-13587840]:hover,
 .bili-dyn-list__notification:hover,
+.vui_button:hover, .vui_button:active, .vui_button.vui_button--active, .vui_button.vui_button--active:hover,
+.vui_button--active-blue:active, .vui_button--active-blue.vui_button--active, .vui_button--active-blue.vui_button--active:hover,
+.vui_button--link:hover, .vui_button--link:active, .vui_button--link.vui_button--active, .vui_button--link.vui_button--active:hover,
+.vui_button:focus,
 .note-pc .note-container .note-header .note-operation.detail:hover,
 .bui-button .bui-area.bui-button-gray:hover, .bui-button .bui-area.bui-button-large:hover, .bui-button .bui-area.bui-button-small:hover,
 .navTools_navMenu___0Y9U .navTools_item__x8ZYs:hover,
@@ -108,6 +122,7 @@ div.toolbar > span:nth-child(5),
 .upinfo-btn-panel .follow-btn.following:hover, .video-tool-more-popover:hover, .tag-more:hover, .s_tag-v1 .tag-wrap .tag-area > li .tag-link:hover {
     background: var(--add-btn-hover) !important;
 }
+.vui_button--link:focus,
 .bui-button .bui-area.bui-button-gray:active,
 .bui-button .bui-area.bui-button-large:active,
 .bui-button .bui-area.bui-button-small:active,
@@ -127,6 +142,7 @@ div.toolbar > span:nth-child(5),
     background: var(--active-title);
 }
 .note-up .up-desc-container .desc-top .attention-btn-container:hover,
+.vui_tabs--navbar .vui_tabs--nav-slider,
 .upinfo-btn-panel .follow-btn.not-follow[data-v-1e89c9b3]:hover {
     background: var(--filled-hover);
 }
@@ -154,6 +170,8 @@ div.toolbar > span:nth-child(5),
 .mediainfo_mediaRight__jv5hq .mediainfo_media_desc_section__bOFBw .mediainfo_display_area__CEKfP .mediainfo_ellipsis__xCKNd {
     background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), var(--primary-black) 20%, var(--primary-black));
 }
+.search-input-container .search-input-wrap[data-v-c9b7d6c2]:hover, .search-input-container .search-input-wrap.search-input-focus[data-v-c9b7d6c2],
+.search-input-container .search-input-wrap[data-v-c9b7d6c2],
 .bpx-player-sending-bar .bpx-player-video-inputbar {
     background: var(--searchbox-background);
     border: 1px solid var(--searchbox-border-color);
@@ -166,6 +184,9 @@ div.toolbar > span:nth-child(5),
 .mediainfo_mediaRight__jv5hq .mediainfo_media_desc__F5lLq i,
 .main-container,
 .b-img,
+.v-img,
+.bili-video-card .bili-video-card__image--wrap[data-v-62f526a6],
+.bui-button .bui-area.bui-button-blue, .bui-button .bui-area.bui-button-gray3:hover,
 .bpx-player-auxiliary .bpx-player-dm-management,
 .bpx-player-auxiliary .bpx-player-dm-wrap-child,
 .bili-comment.browser-pc {
@@ -179,11 +200,16 @@ div.toolbar > span:nth-child(5),
 }
 .bpx-player-date-picker,
 .at-panel[data-v-2f6d5a3d],
+.follow_followOptions__QR9Ym .follow_optionsList__gM6M0,
 .emoji-panel .emoji-title[data-v-8419c70e],
 .emoji-panel .emoji-tab[data-v-8419c70e],
+.vui_tabs--navbar .vui_tabs--nav-item .vui_tabs--nav-num,
 .emoji-panel .emoji-content[data-v-8419c70e] {
     background-color: var(--menu-background);
 }
+.bui-button .bui-area.bui-button-blue:hover,
+.follow_btnFollow__OFY3n.follow_followed__smKNK,
+.follow_followOptions__QR9Ym .follow_optionsList__gM6M0 li:hover,
 .reply-item .root-reply-container .content-warp .root-reply .reply-tag-list .reply-tag-item[data-v-7592db79] {
     background-color: var(--additive-background) !important;
 }
@@ -196,12 +222,14 @@ a,
 .video-page-card-small .card-box .info .upname a svg,
 .video-page-card-small .card-box .info .playinfo,
 .note-up .up-desc-container .desc-bottom,
+body,
 .bpx-player-block-list-function .bpx-player-block-list-delete:hover, .bpx-player-block-list-function .bpx-player-block-list-state:hover, .bpx-player-block-list-function .bpx-player-block-list-sync:hover,
 .reply-header .reply-navigation .nav-bar .nav-sort[data-v-7bb97476],
 .bpx-player-auxiliary .bpx-player-dm-btn-history:hover,
 .note-content .note-text-container .note-prefix[data-v-6d4103cc],
 .video-page-special-card-small .card-box .info .desc[data-v-819a3252],
 .bui-tabs .bui-tabs-header .bui-tabs-header-item,
+.vui_tabs--navbar .vui_tabs--nav-item .vui_tabs--nav-text,
 .base-video-sections-v1 .video-section-list .video-episode-card__info-duration[data-v-3b780778],
 .SectionSelector_SectionSelector__WS4H3 .SectionSelector_sectionItem__EGNpc {
     color: var(--idle-title);
@@ -243,6 +271,8 @@ a,
 .emoji-panel[data-v-8419c70e],
 .reply-header .reply-navigation .nav-bar .nav-sort .hot-sort[data-v-7bb97476]:hover,
 .bpx-player-block-add-input,
+.follow_followOptions__QR9Ym,
+.follow_followOptions__QR9Ym .follow_optionsList__gM6M0 li.follow_disabled___fJUl,
 .bpx-player-date-picker-day,
 .bpx-player-block-list-line,
 .bui-button .bui-area.bui-button-gray, .bui-button .bui-area.bui-button-large, .bui-button .bui-area.bui-button-small,
@@ -252,6 +282,10 @@ a,
 .bpx-player-sending-bar .bpx-player-video-inputbar .bpx-player-dm-input,
 .ql-snow.ql-toolbar button, .ql-snow .ql-toolbar button,
 .reply-content-container .reply-content .note-prefix,
+.vui_tabs--navbar .vui_tabs--nav-item .vui_tabs--nav-num,
+.i_card_title>a:hover,
+.search-input-container .search-input-wrap .search-input-el[data-v-c9b7d6c2],
+.vui_tabs--navbar .vui_tabs--nav-item:hover .vui_tabs--nav-text, .vui_tabs--navbar .vui_tabs--nav-item-active .vui_tabs--nav-text,
 .multi-page-v1 .cur-list .list-box li .link-content {
     color: var(--active-title);
 }
@@ -276,10 +310,23 @@ div.sub-reply-item > span,
 .navTools_navMenu___0Y9U .navTools_item__x8ZYs,
 .mediainfo_mediaRight__jv5hq .mediainfo_media_desc__F5lLq,
 .toolbar,
+.RecommendItem_wrap__pJmXL .RecommendItem_right_wrap__rgzw_ .RecommendItem_title__zyQj0,
+.RecommendItem_wrap__pJmXL .RecommendItem_right_wrap__rgzw_ .RecommendItem_title__zyQj0:hover,
+.recommend_wrap__pgu8c .recommend_title__miCR4,
+.numberList_wrapper__xihGs a,
+.vui_button:hover, .vui_button:active, .vui_button.vui_button--active, .vui_button.vui_button--active:hover,
+.numberListItem_title__ukPv0,.keyword,
+.vui_button--link:hover, .vui_button--link:active, .vui_button--link.vui_button--active, .vui_button--link.vui_button--active:hover,
+.vui_button--link, .vui_button--link:focus,
+.bili-video-card .bili-video-card__info--tit[data-v-62f526a6]:hover,
 .bui-dropdown .bui-dropdown-items .bui-dropdown-item,
+.vui_button, .vui_button:focus,
+.bili-video-card .bili-video-card__info--tit[data-v-62f526a6],
 .bb-comment .comment-send .comment-emoji:hover, .comment-bilibili-fold .comment-send .comment-emoji:hover, .bb-comment .comment-send-lite .comment-emoji:hover, .comment-bilibili-fold .comment-send-lite .comment-emoji:hover, .bb-comment .comment-send .comment-emoji.open, .comment-bilibili-fold .comment-send .comment-emoji.open, .bb-comment .comment-send-lite .comment-emoji.open, .comment-bilibili-fold .comment-send-lite .comment-emoji.open,
 .note-pc .note-container .note-header .note-operation.detail,
 .note-list .note-card-container .note-card .user-info .user-name[data-v-13587840],
+.text1,
+.vui_tabs--navbar .vui_tabs--nav-item:hover .vui_tabs--nav-text, .vui_tabs--navbar .vui_tabs--nav-item-active .vui_tabs--nav-text,
 .ql-snow .ql-picker,
 .note-list .note-card-container .note-card .note-content[data-v-13587840],
 .base-video-sections-v1 .video-section-list .video-episode-card__info-title,
@@ -305,15 +352,25 @@ div.sub-reply-item > span,
 .bpx-player-date-picker-day,
 .video-toolbar-container[data-v-3b7178b8],
 .s_tag-v1,
+.vui_button:hover, .vui_button:active, .vui_button.vui_button--active, .vui_button.vui_button--active:hover,
 .bb-comment .comment-send .comment-emoji, .comment-bilibili-fold .comment-send .comment-emoji, .bb-comment .comment-send-lite .comment-emoji, .comment-bilibili-fold .comment-send-lite .comment-emoji,
+.vui_button, .vui_button:focus,
+.vui_button[disabled], .vui_button[disabled]:hover, .vui_button[disabled]:active, .vui_button[disabled].vui_button--active,
 .van-popover.van-followed,
 .SectionSelector_SectionSelector__WS4H3 .SectionSelector_selectorDropdown__49uby {
     border: none;
 }
-
+.bpx-player-sending-bar .bpx-player-video-inputbar,
+.follow_followOptions__QR9Ym .follow_optionsList__gM6M0,
 .multi-page-v1 {
     border: 1px solid var(--add-btn-hover);
 }
+.recommend_wrap__pgu8c,
+.search-layout .search-header .search-line[data-v-d394b564],
+.mediainfo_mediaInfo__Cpow4 {
+    border-top: 1px solid var(--outline);
+}
+
 .bpx-player-auxiliary .bpx-player-collapse .bui-collapse-body {
     border: 1px solid var(--add-btn-hover);
     border-top: none;
