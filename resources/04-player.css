@@ -86,6 +86,7 @@ div.toolbar > span:nth-child(5),
 .emoji-panel .emoji-content .emoji-info[data-v-8419c70e]:hover,
 .note-pc .note-container .note-header .note-operation.detail,
 .note-pc .note-container .note-header .close-note:hover,
+.recommend-list-v1 .split-line[data-v-39ee0c7c],
 .bui-button .bui-area.bui-button-gray, .bui-button .bui-area.bui-button-large, .bui-button .bui-area.bui-button-small,
 .note-pc .note-container .note-header .back-note-list:hover,
 .search-input-wrap .suggest-item.active, .search-input-wrap .suggest-item:hover, .search-input-wrap .suggest-item:focus,
@@ -390,6 +391,12 @@ div.sub-reply-item > span,
 .numberListItem_number_list_item__wszA4:hover,
 .numberListItem_number_list_item__wszA4.numberListItem_select__ar1X5 {
     border: 1px solid var(--outline);
+}
+.reply-box .box-expand .at-btn[data-v-9fc68100],
+.reply-box .box-expand .reply-box-emoji .emoji-btn[data-v-9fc68100],
+.reply-box .box-normal .reply-box-warp .reply-box-textarea[data-v-9fc68100],
+.reply-box .box-normal .reply-box-warp .reply-box-textarea.focus[data-v-9fc68100], .reply-box .box-normal .reply-box-warp .reply-box-textarea[data-v-9fc68100]:hover {
+    border-color: var(--outline);
 }
 .bpx-player-date-picker-header {
     border-bottom: 1px solid var(--outline);

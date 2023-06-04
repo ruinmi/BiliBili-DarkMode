@@ -38,6 +38,7 @@ div.link-title > svg > path,
 .bili-header .histories .history-item {
     background: none;
 }
+#bili-header-container,
 .bili-header .center-search-container .center-search__bar .nav-search-content .nav-search-input:focus,
 .bili-header .center-search-container .center-search__bar .nav-search-content .nav-search-input:active {
     background: none !important;
@@ -74,6 +75,9 @@ div.link-title > svg > path,
 }
 .bili-header .avatar-panel-popover .split-line {
     background: var(--outline);
+}
+body {
+    background-color: var(--primary-black) !important;
 }
 .bili-header .center-search-container .center-search__bar #nav-searchform:hover,
 .mini-header .center-search-container .center-search__bar #nav-searchform {
