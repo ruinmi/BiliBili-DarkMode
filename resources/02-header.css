@@ -88,6 +88,9 @@ body {
 }
 
 /*border*/
+.history-panel-popover .header-tabs-panel {
+    border: none;
+}
 .v-popover-content,
 #bili-header-container > div > div > ul.right-entry > li.v-popover-wrap.header-avatar-wrap > div.v-popover.is-bottom > div {
     border: 1px solid var(--outline);
@@ -128,6 +131,7 @@ body {
 .bili-header .avatar-panel-popover .counts-item .single-count-item .count-text,
 .bili-header .avatar-panel-popover .counts-item .single-count-item .count-num,
 .bili-header,
+.history-panel-popover .header-tabs-panel__content--date,
 .bili-header .upload-panel-popover .upload-item .item-title,
 .bili-header .header .clear:hover,
 .bili-header .avatar-panel-popover .coins-item .coin-item__num,

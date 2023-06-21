@@ -105,7 +105,10 @@ div.toolbar > span:nth-child(5),
 .bpx-player-auxiliary .bpx-player-dm-wrap .bscroll-indicator,
 .reply-content-container .reply-content .note-prefix,
 .vui_button--link,
+.base-video-sections-v1 .video-section-list .video-episode-card__info-playing[data-v-561fc3b4],
 .vui_button,
+.bili-header .suggest-item.active, .bili-header .suggest-item:hover, .bili-header .suggest-item:focus,
+.base-video-sections-v1 .border-bottom-line[data-v-561fc3b4],
 .upinfo-btn-panel .follow-btn.following, .video-tool-more-popover, .tag-more, .s_tag-v1 .tag-wrap .tag-area > li .tag-link {
     background: var(--additive-background) !important;
 }
@@ -149,6 +152,7 @@ div.toolbar > span:nth-child(5),
 }
 .video-sections-head,
 .note-pc .note-container .note-header,
+.base-video-sections-v1[data-v-561fc3b4],
 .bpx-player-auxiliary .bpx-player-collapse .bui-collapse-body,
 .bui-collapse .bui-collapse-header,
 .multi-page-v1 .head-con {
@@ -195,6 +199,7 @@ div.toolbar > span:nth-child(5),
 }
 
 .eplist_ep_list_wrapper__PzLHa,
+.sub-reply-item.show-reply[data-v-2c26b1b1],
 .reply-box .box-normal .reply-box-warp .reply-box-textarea, .bili-dyn-list-loading,
 .reply-box .box-normal .reply-box-warp .reply-box-textarea.focus[data-v-46b8da04], .reply-box .box-normal .reply-box-warp .reply-box-textarea:hover {
     background-color: var(--primary-black) !important;
@@ -310,6 +315,8 @@ div.sub-reply-item > span,
 .mediainfo_mediaRight__jv5hq .mediainfo_media_desc_section__bOFBw,
 .navTools_navMenu___0Y9U .navTools_item__x8ZYs,
 .mediainfo_mediaRight__jv5hq .mediainfo_media_desc__F5lLq,
+.base-video-sections-v1 .video-sections-head_first-line .first-line-left .first-line-title[data-v-561fc3b4]:hover,
+.base-video-sections-v1 .video-sections-head_first-line .first-line-left .first-line-title[data-v-561fc3b4],
 .toolbar,
 .RecommendItem_wrap__pJmXL .RecommendItem_right_wrap__rgzw_ .RecommendItem_title__zyQj0,
 .RecommendItem_wrap__pJmXL .RecommendItem_right_wrap__rgzw_ .RecommendItem_title__zyQj0:hover,

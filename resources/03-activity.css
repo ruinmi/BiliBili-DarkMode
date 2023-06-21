@@ -51,6 +51,8 @@
 
 .bili-dyn-card-ugc .bili-dyn-card-ugc__wrap, .reference .bili-dyn-card-ugc__wrap,
 .bili-user-profile,
+.n .n-inner,
+#page-dynamic .col-2 .section,
 .bili-dyn-card-reserve .bili-dyn-card-reserve__card,
 .reference .bili-dyn-card-reserve__card {
     background: var(--primary-black);
@@ -63,7 +65,6 @@
 .bili-dyn-live-users__item-container:hover,
 .bili-dyn-publishing,
 .bili-user-profile-view__info__button.follow.checked,
-.bili-dyn-card-pgc__body,
 .bili-user-profile-view__info__button.chat:hover,
 .comment-bilibili-fold {
     background: var(--additive-background)
@@ -121,6 +122,7 @@
 .bili-user-profile-view__info__button.follow.checked,
 .bb-comment .comment-list .list-item .con, .comment-bilibili-fold .comment-list .list-item .con,
 .bili-dyn-card-video__body,
+.bili-dyn-card-pgc__body,
 .bili-dyn-card-live__body,
 .bb-comment .bottom-page.center,
 .bili-topic-search__popover {
@@ -129,10 +131,13 @@
 .bili-dyn-forward__item, .bili-dyn-forward__more {
     border-top: 1px solid var(--outline);
 }
+.user-info .user-info-title[data-v-31d5659a] {
+    border-bottom: none;
+}
 .bili-dyn-list-tabs {
     border-bottom: 1px solid var(--outline);
 }
-
+#page-dynamic .col-2 .section,
 .bb-comment .comment-send .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send .textarea-container .ipt-txt, .bb-comment .comment-send-lite .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send-lite .textarea-container .ipt-txt,
 .bili-user-profile-view__info__button.chat,
 .bili-dyn-item {
@@ -209,6 +214,7 @@
 .bili-rich-textarea__inner,
 .bili-dyn-list__notification,
 .bb-comment .comment-list .list-item .text,
+.user-info .user-info-title .info-title[data-v-31d5659a],
 .dyn-vote__detail__title,
 .bb-comment .comment-list .list-item .reply-box .view-more .btn-more, .comment-bilibili-fold .comment-list .list-item .reply-box .view-more .btn-more,
 .bili-user-profile-view__info__uname,
@@ -220,6 +226,7 @@
 .bb-comment .comment-send .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send .textarea-container .ipt-txt, .bb-comment .comment-send-lite .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send-lite .textarea-container .ipt-txt,
 .bili-dyn-card-vote__detail__title,
 .bili-user-profile-view__info__button.chat,
+.n .n-data .n-data-v,
 .bili-dyn-my-info__content .bili-dyn-my-info__name {
     color: var(--active-title) !important;
 }
@@ -261,6 +268,7 @@
     height: 27px;
     line-height: 27px;
 }
+.n .n-inner,
 .bili-topic-search__popover.active {
     box-shadow: none;
 }
@@ -277,4 +285,7 @@
     position: absolute;
     z-index: 111;
     right: 120px;
+}
+.h .h-inner {
+    background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) !important;
 }
