@@ -107,6 +107,8 @@ div.toolbar > span:nth-child(5),
 .vui_button--link,
 .base-video-sections-v1 .video-section-list .video-episode-card__info-playing[data-v-561fc3b4],
 .vui_button,
+.video-tag-container .tag-panel .tag-link,
+.reply-item .root-reply-container .content-warp .root-reply .reply-tag-list .reply-tag-item[data-v-789db938],
 .bili-header .suggest-item.active, .bili-header .suggest-item:hover, .bili-header .suggest-item:focus,
 .base-video-sections-v1 .border-bottom-line[data-v-561fc3b4],
 .upinfo-btn-panel .follow-btn.following, .video-tool-more-popover, .tag-more, .s_tag-v1 .tag-wrap .tag-area > li .tag-link {
@@ -334,6 +336,10 @@ div.sub-reply-item > span,
 .note-pc .note-container .note-header .note-operation.detail,
 .note-list .note-card-container .note-card .user-info .user-name[data-v-13587840],
 .text1,
+.video-info-container .video-title[data-v-4f1c0915],
+.video-tag-container .tag-panel .tag-link,
+.reply-item .root-reply-container .content-warp .root-reply .reply-tag-list .reply-tag-item[data-v-789db938],
+.video-desc-container .basic-desc-info[data-v-1d530b8d],
 .vui_tabs--navbar .vui_tabs--nav-item:hover .vui_tabs--nav-text, .vui_tabs--navbar .vui_tabs--nav-item-active .vui_tabs--nav-text,
 .ql-snow .ql-picker,
 .note-list .note-card-container .note-card .note-content[data-v-13587840],
@@ -405,6 +411,8 @@ div.sub-reply-item > span,
 .reply-box .box-normal .reply-box-warp .reply-box-textarea.focus[data-v-9fc68100], .reply-box .box-normal .reply-box-warp .reply-box-textarea[data-v-9fc68100]:hover {
     border-color: var(--outline);
 }
+.video-toolbar-container[data-v-56086ed8],
+.video-tag-container[data-v-375e9ec0],
 .bpx-player-date-picker-header {
     border-bottom: 1px solid var(--outline);
 }
