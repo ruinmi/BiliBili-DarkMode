@@ -67,6 +67,7 @@ div.toolbar > span:nth-child(5),
 .note-detail,
 .bui-collapse .bui-collapse-header,
 .video-page-card-small .card-box .pic-box,
+#page-index .col-1,
 .bpx-player-auxiliary .bpx-player-dm-function {
     background: var(--primary-black) !important;
 }
@@ -108,6 +109,8 @@ div.toolbar > span:nth-child(5),
 .base-video-sections-v1 .video-section-list .video-episode-card__info-playing[data-v-561fc3b4],
 .vui_button,
 .video-tag-container .tag-panel .tag-link,
+.play-all-channel,
+.section .more,
 .reply-item .root-reply-container .content-warp .root-reply .reply-tag-list .reply-tag-item[data-v-789db938],
 .bili-header .suggest-item.active, .bili-header .suggest-item:hover, .bili-header .suggest-item:focus,
 .base-video-sections-v1 .border-bottom-line[data-v-561fc3b4],
@@ -211,12 +214,14 @@ div.toolbar > span:nth-child(5),
 .follow_followOptions__QR9Ym .follow_optionsList__gM6M0,
 .emoji-panel .emoji-title[data-v-8419c70e],
 .emoji-panel .emoji-tab[data-v-8419c70e],
+.play-all-channel:hover,
 .vui_tabs--navbar .vui_tabs--nav-item .vui_tabs--nav-num,
 .emoji-panel .emoji-content[data-v-8419c70e] {
     background-color: var(--menu-background);
 }
 .bui-button .bui-area.bui-button-blue:hover,
 .follow_btnFollow__OFY3n.follow_followed__smKNK,
+.reply-item .root-reply-container .content-warp .root-reply .reply-tag-list .reply-tag-item[data-v-bc6a99fc],
 .follow_followOptions__QR9Ym .follow_optionsList__gM6M0 li:hover,
 .reply-item .root-reply-container .content-warp .root-reply .reply-tag-list .reply-tag-item[data-v-7592db79] {
     background-color: var(--additive-background) !important;
@@ -341,7 +346,12 @@ div.sub-reply-item > span,
 .reply-item .root-reply-container .content-warp .root-reply .reply-tag-list .reply-tag-item[data-v-789db938],
 .video-desc-container .basic-desc-info[data-v-1d530b8d],
 .vui_tabs--navbar .vui_tabs--nav-item:hover .vui_tabs--nav-text, .vui_tabs--navbar .vui_tabs--nav-item-active .vui_tabs--nav-text,
+.reply-item .root-reply-container .content-warp .root-reply .reply-tag-list .reply-tag-item[data-v-bc6a99fc],
 .ql-snow .ql-picker,
+.section-title,
+.play-all-channel:hover,
+.section .more:hover,
+#page-index .channel.guest .channel-item .channel-title .channel-name,
 .note-list .note-card-container .note-card .note-content[data-v-13587840],
 .base-video-sections-v1 .video-section-list .video-episode-card__info-title,
 .base-video-sections-v1 .video-sections-head_first-line .first-line-left .first-line-title[data-v-3b780778],
@@ -371,8 +381,15 @@ div.sub-reply-item > span,
 .vui_button, .vui_button:focus,
 .vui_button[disabled], .vui_button[disabled]:hover, .vui_button[disabled]:active, .vui_button[disabled].vui_button--active,
 .van-popover.van-followed,
+#page-index .col-1,
+.section .more:hover,
+.section,
+.section .more,
+.play-all-channel,
+.play-all-channel:hover,
+#page-index .channel .channel-item,
 .SectionSelector_SectionSelector__WS4H3 .SectionSelector_selectorDropdown__49uby {
-    border: none;
+    border: none !important;
 }
 .bpx-player-sending-bar .bpx-player-video-inputbar,
 .follow_followOptions__QR9Ym .follow_optionsList__gM6M0,
@@ -501,6 +518,7 @@ div.sub-reply-item > span,
 }
 .bb-comment .comment-send .comment-emoji, .comment-bilibili-fold .comment-send .comment-emoji, .bb-comment .comment-send-lite .comment-emoji, .comment-bilibili-fold .comment-send-lite .comment-emoji,
 #bilibili-player-placeholder,
+.i-pin-c,
 .bpx-player-container {
     box-shadow: none;
 }

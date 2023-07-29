@@ -52,6 +52,8 @@
 .bili-dyn-card-ugc .bili-dyn-card-ugc__wrap, .reference .bili-dyn-card-ugc__wrap,
 .bili-user-profile,
 .n .n-inner,
+.col-full,
+#page-video #submit-video-type-filter,
 #page-dynamic .col-2 .section,
 .bili-dyn-card-reserve .bili-dyn-card-reserve__card,
 .reference .bili-dyn-card-reserve__card {
@@ -102,6 +104,8 @@
 .bb-comment .comment-send .comment-submit:hover, .comment-bilibili-fold .comment-send .comment-submit:hover, .bb-comment .comment-send-lite .comment-submit:hover, .comment-bilibili-fold .comment-send-lite .comment-submit:hover {
     background: var(--btn-blue-hover);
 }
+.be-pager-item,
+.be-pager-next, .be-pager-prev,
 .bili-topic-new__custom {
     background-color: var(--additive-background);
 }
@@ -117,11 +121,15 @@
 
 /* border */
 .bili-dyn-card-video,
+.contribution-sidenav,
+.contribution-sidenav~.main-content,
 .dyn-vote,
 .bili-dyn-card-live,
 .bili-user-profile-view__info__button.follow.checked,
 .bb-comment .comment-list .list-item .con, .comment-bilibili-fold .comment-list .list-item .con,
 .bili-dyn-card-video__body,
+.be-pager-next, .be-pager-prev,
+.be-pager-item,
 .bili-dyn-card-pgc__body,
 .bili-dyn-card-live__body,
 .bb-comment .bottom-page.center,
@@ -192,6 +200,8 @@
 .bili-dyn-live-users__more:hover,
 .bili-dyn-card-live__title,
 .bili-dyn-live-users__title,
+.small-item .title,
+#page-video .page-head__left .video-title,
 .bili-topic-search__popover.active .bili-topic-search__input__inner,
 .bili-dyn-my-info__stat__item:hover > div:first-child,
 .bili-topic-item__cloud__name[data-v-ff31b528],
@@ -269,6 +279,7 @@
     line-height: 27px;
 }
 .n .n-inner,
+.col-full,
 .bili-topic-search__popover.active {
     box-shadow: none;
 }

@@ -21,6 +21,7 @@
 
 body {
     background-color: var(--primary-black);
+    background: url(https://images.pexels.com/photos/3293150/pexels-photo-3293150.jpeg) top/cover no-repeat fixed;
 }
 
 /* 设置滚动条的样式 */
