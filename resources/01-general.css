@@ -21,7 +21,7 @@
 
 body {
     background-color: var(--primary-black);
-    background: url(https://images.pexels.com/photos/3293150/pexels-photo-3293150.jpeg) top/cover no-repeat fixed;
+    /*     background: url(https://images.pexels.com/photos/3293150/pexels-photo-3293150.jpeg) top/cover no-repeat fixed; */
 }
 
 /* 设置滚动条的样式 */
@@ -90,4 +90,7 @@ div.b-avatar__layers > div:nth-child(2) {
 
 .v-img {
     background-color: transparent;
+}
+.bili-im .right {
+    display: block !important;
 }
