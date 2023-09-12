@@ -44,6 +44,7 @@
 .bili-user-profile-view__info__button.chat,
 .bili-rich-textarea__inner,
 .bili-dyn-topic__card:hover,
+.comment-wrapper .comment-m,
 .bili-rich-text-link:hover, .bili-rich-text-module:hover, .bili-rich-text-topic:hover {
     background: none;
 }
@@ -72,7 +73,7 @@
     background: var(--additive-background)
 }
 
-.bili-dyn-list__notification,
+.bili-dyn-list-notification,
 .bili-user-profile__content,
 .reply-tags span,
 .bili-topic-item__cloud[data-v-ff31b528]:hover,
@@ -221,8 +222,9 @@
 .user a,
 .bb-comment .comment-list .list-item .info .btn-hover, .comment-bilibili-fold .comment-list .list-item .info .btn-hover,
 .reply-tags span,
+.comment-wrapper .comment-m .b-head,
 .bili-rich-textarea__inner,
-.bili-dyn-list__notification,
+.bili-dyn-list-notification,
 .bb-comment .comment-list .list-item .text,
 .user-info .user-info-title .info-title[data-v-31d5659a],
 .dyn-vote__detail__title,
