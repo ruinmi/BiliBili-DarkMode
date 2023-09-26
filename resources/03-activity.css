@@ -44,9 +44,11 @@
 .bili-user-profile-view__info__button.chat,
 .bili-rich-textarea__inner,
 .bili-dyn-topic__card:hover,
+.search-page,
+.g-search input,
 .comment-wrapper .comment-m,
 .bili-rich-text-link:hover, .bili-rich-text-module:hover, .bili-rich-text-topic:hover {
-    background: none;
+    background: none !important;
 }
 
 
@@ -67,6 +69,7 @@
 .topic-panel,
 .bili-dyn-live-users__item-container:hover,
 .bili-dyn-publishing,
+.contribution-sidenav .contribution-item:hover,
 .bili-user-profile-view__info__button.follow.checked,
 .bili-user-profile-view__info__button.chat:hover,
 .comment-bilibili-fold {
@@ -107,16 +110,18 @@
 }
 .be-pager-item,
 .be-pager-next, .be-pager-prev,
+.search-nav-item:hover,
 .bili-topic-new__custom {
-    background-color: var(--additive-background);
+    background-color: var(--additive-background) !important;
 }
 .bili-dyn-more__container:hover {
     background-color: transparent;
 }
 .bili-topic-search__popover.active,
 .bili-topic-search__popover,
+.search-nav-item.search-nav-actived,
 .bili-topic-selector__bulletin {
-    background-color: var(--menu-background);
+    background-color: var(--menu-background) !important;
 }
 
 
@@ -135,7 +140,7 @@
 .bili-dyn-card-live__body,
 .bb-comment .bottom-page.center,
 .bili-topic-search__popover {
-    border: none;
+    border: none !important;
 }
 .bili-dyn-forward__item, .bili-dyn-forward__more {
     border-top: 1px solid var(--outline);
@@ -147,6 +152,7 @@
     border-bottom: 1px solid var(--outline);
 }
 #page-dynamic .col-2 .section,
+.g-search input,
 .bb-comment .comment-send .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send .textarea-container .ipt-txt, .bb-comment .comment-send-lite .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send-lite .textarea-container .ipt-txt,
 .bili-user-profile-view__info__button.chat,
 .bili-dyn-item {
@@ -203,12 +209,19 @@
 .bili-dyn-live-users__title,
 .small-item .title,
 #page-video .page-head__left .video-title,
+.g-search input,
 .bili-topic-search__popover.active .bili-topic-search__input__inner,
 .bili-dyn-my-info__stat__item:hover > div:first-child,
-.bili-topic-item__cloud__name[data-v-ff31b528],
+.bili-topic-item__cloud__name,
+.contribution-sidenav .text,
+.breadcrumb .item.cur,
+.album-list__title,
+#page-article .row .breadcrumb .item,
+.feed-dynamic-header-title,
+#page-video #submit-video-type-filter a.active,
 .bb-comment .comment-list .list-item .reply-box .reply-item,
 .bili-dyn-list-tabs__item.active, .bili-dyn-list-tabs__item:hover {
-    color: var(--active-title);
+    color: var(--active-title) !important;
 }
 
 .bb-comment .comment-header .tabs-order li.on, .comment-bilibili-fold .comment-header .tabs-order li.on,

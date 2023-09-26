@@ -38,7 +38,12 @@ body .note-list .note-card-container .note-card,
 body .numberListItem_number_list_item__wszA4:hover,
 body .bpx-player-block-list-line,
 body .resizable-component .editor-innter,
+body .bpx-player-sending-bar .bpx-player-video-inputbar,
 body .numberListItem_number_list_item__wszA4.numberListItem_select__ar1X5,
+body .bpx-player-sending-bar,
+body .bui-button .bui-area.bui-button-blue,
+#bilibili-player-placeholder-bottom,
+.bpx-player-sending-area:before,
 body .multi-page-v1 .cur-list {
     background: none !important;
 }
@@ -186,7 +191,7 @@ body .mediainfo_mediaRight__jv5hq .mediainfo_media_desc_section__bOFBw .mediainf
 }
 body .search-input-container .search-input-wrap,
 body .search-input-container .search-input-wrap,
-body .bpx-player-sending-bar .bpx-player-video-inputbar {
+.bpx-player-sending-bar .bpx-player-video-inputbar {
     background: var(--searchbox-background) !important;
     border: 1px solid var(--searchbox-border-color) !important;
 }
@@ -194,13 +199,12 @@ body .note-up .up-desc-container .desc-top .attention-btn-container {
     background: white !important;
 }
 
-body .bpx-player-sending-bar,
 body .mediainfo_mediaRight__jv5hq .mediainfo_media_desc__F5lLq i,
 body .main-container,
 body .b-img,
 body .v-img,
 body .bili-video-card .bili-video-card__image--wrap,
-body .bui-button .bui-area.bui-button-blue, .bui-button .bui-area.bui-button-gray3:hover,
+.bui-button .bui-area.bui-button-gray3:hover,
 body .bpx-player-auxiliary .bpx-player-dm-management,
 body .bpx-player-auxiliary .bpx-player-dm-wrap-child,
 body .bili-comment.browser-pc {
